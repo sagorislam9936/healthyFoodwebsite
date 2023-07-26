@@ -1,7 +1,7 @@
 
 body{
    margin: 0 auto;
-padding: 0;
+padding: 0px;
 color: #575757;;
 
 
@@ -301,7 +301,7 @@ padding: 200px 1px 1px 1px;
 
 .follower{
   display: flex;
-     margin: 2% 7% 10% 7%;
+     margin: 2% 7% 15% 7%;
      box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
      border-radius: 20px;
 }
@@ -316,10 +316,540 @@ font-size: 50px;
 color: black;
 }
 
+/*BOTTOM AREA STYLE*/
+/*.bottomParent{
+     position: relative;
+}
+.bottomChild{
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
+margin: auto;
+text-align: center;
+width: 700px;
+border-radius: 20px;
+padding: 1%;
+position: absolute;
+bottom: 73%;
+left: 22%;
+z-index: 10;
+background-color: #fff;
+
+}
+
+.bottomChild h1{
+ 
+     font-size: 40px;
+padding: 3%;
+margin: 0;
+
+}
+.bottomChild p{
+     margin: 0 auto;
+font-size: 18px;
+opacity: 80%;
+max-width: 50%;
+
+}
+.bottomChild input{
+   
+     width: 400px;
+     height: 32px;
+     border-radius: 15px 0px 0px 15px;
+     text-indent: 10px;
+}
+.form{
+     
+     padding: 1% 0 1% 0;
+
+}
+.bottomChild input {
+     border: 2px solid #11B2FA;
+     font-weight: 700;
+ }
+ .submit {
+    
+     
+     border-radius: 0 15px 15px 0;
+     background-color: #11B2FA;
+     color: #fff;
+     text-align: center;
+}
+
+.submit:hover {
+     background-color: #fff;
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
+     color: #11B2FA;
+}
+*/
+
+
+.bottom-section {
+     position: relative;
+ }
+ 
+ .newsletter {
+     margin: 0 auto;
+     text-align: center;
+     width: 700px;
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
+     border-radius: 20px;
+     padding: 2%;
+     position: absolute;
+     bottom: 73%;
+     left: 22%;
+     
+     background-color: #fff;
+ }
+ 
+ .newsletter .title h2 {
+     font-size: 40px;
+     font-weight: 700;
+     padding: 3%;
+     margin: 0;
+ }
+ 
+ .newsletter .title p {
+     margin: 0 auto;
+     font-size: 18px;
+     opacity: 80%;
+     max-width: 50%;
+ }
+ 
+ .newsletter .input {
+     width: 300px;
+     height: 32px;
+     border-radius: 15px 0 0 15px;
+     text-indent: 10px;
+ }
+ 
+ form {
+     padding: 3% 0 2% 0;
+ }
+ 
+ input {
+     border: 2px solid #11B2FA;
+     font-weight: 700;
+ }
+ 
+ 
+ .newsletter .submit {
+     width: 100px;
+     height: 38px;
+     margin-left: -5px;
+     border-radius: 0 15px 15px 0;
+     background-color: #11B2FA;
+     color: #fff;
+     text-align: center;
+ }
+ 
+ .newsletter .submit:hover {
+     background-color: #fff;
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px 3px;
+     color: #11B2FA;
+ }
+
+ .footer {
+     text-align: center;
+     background-color: #0B0D17;
+     padding: 7% 7% 0 7%;
+ }
+ 
+ .footer h2 {
+     font-size: 30px;
+     padding-top: 2%;
+     font-weight: 700;
+     letter-spacing: 1px;
+ }
+ 
+ .footer p {
+     color: white;
+ }
+ 
+ .footer-nav {
+     padding: 2%;
+ }
+ 
+ .footer-nav a {
+     text-decoration: none;
+     color: #575757;
+     padding: 10px;
+     font-weight: 700;
+ }
+ 
+ .footer-nav a:hover {
+     color: #11B2FA;
+ }
+ 
+ hr {
+     border: 1px solid #11B2FA;
+ }
+ 
+ .copyright {
+     padding-bottom: 1%;
+ }
+ 
 
 
 
 
+/*RWD SMALL SCREEN SECTION*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px)
+{
+    body{
+        background-color: #d6e2e8;
+     }
+
+     .NavSection{
+        display: inline-block;
+        align-items: center;
+        
+        
+        }
+
+      
+.lastNav{
+    font-size: 5px;
+    padding: 15px 0px;
+}
+.lastNav .button{
+
+
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(281deg, #11B2FA, #A6D4EE);
+    font-weight: 700;
+   margin: 10px;
+    
+    }
+     
+
+     /*BANNAR AREA SMALL SCREEN*/
+
+
+
+
+ .bannerArea {
+  margin: 0PX;
+display: block;
+   text-align: center;
+    
+  
+}
+.textArea{
+   
+    padding-right: 0px;
+    width: 80%;
+
+}
+
+.bannerArea .button{
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: white;
+    background-image: linear-gradient(281deg, #11B2FA, #A6D4EE);
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.imageArea{
+    padding-right: 0px;
+    width: 90%;
+    }
+
+    /*ABOUT US AREA SMALL SCREEN*/
+    .aboutUs{
+        background-image: url(./bgimage.jpg );
+        background-repeat: no-repeat;
+  display: block;
+  text-align: center;
+ 
+        background-size: 100%;
+        width: 100%;
+    
+        
+   
+   
+   }
+   .aboutUs .img{
+    padding: 5px 10px 10px 100px;
+    
+}
+.aboutUs .txt{
+    padding: 115px 10px 10px 100px;
+    
+}
+
+
+.aboutUs img{
+    
+    padding-right: 0px;
+    width: 70%;
+    float:right;
+    
+}
+
+
+
+.aboutUs .button{
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(281deg, #11B2FA, #A6D4EE);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+
+/*RECIPIES AREA*/
+
+
+
+
+
+.FlexRecipe{
+    display: block;
+    padding-right: 0px;
+
+}
+
+
+
+
+/*CUSTOMER FEEDBACK AREA*/
+
+
+
+
+
+
+
+.Review{
+
+   
+    text-align: center;
+    display: block;
+    
+}
+
+/*FOLLOWER ARE*/
+
+.follower{
+    display: block;
+    text-align: center;
+       margin: 2% 7% 45% 7%;
+       box-shadow: rgb(0 0 0 / 20%) 0px 0px 500px 100px;
+       border-radius: 20px;
+  }
+
+
+
+
+
+  .newsletter {
+   
+    text-align: center;
+    width: 300px;
+    box-shadow: rgb(0 0 0 / 20%) px 500px 5px 3px;
+    border-radius: 20px;
+    padding: 2%;
+    position: absolute;
+    bottom: 70%;
+    left: 8%;
+    right: 8px;
+ 
+    background-color: #fff;
+}
+form {
+    padding: 30% 3% 5% 3;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 30% 1% 0 2%;
+}
+
+
+
+}
+
+
+
+
+/*RWD MEDIUM SCREEN*/
+
+
+
+@media only screen and (min-width:501px) and (max-width:800px){
+     body{
+          background-color:rgb(110, 122, 121)
+     }
+     .NavSection{
+        display: inline-block;
+        align-items: center;
+        
+        
+        }
+
+      
+.lastNav{
+    font-size: 5px;
+    padding: 15px 0px;
+}
+.lastNav .button{
+
+
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(281deg, #11B2FA, #A6D4EE);
+    font-weight: 700;
+   margin: 10px;
+    
+    }
+/*BANNAR AREA MEDIUM SCREEN*/
+     .bannerArea {
+        
+        display: block;
+       text-align: center;
+        
+      
+    }
+    .textArea{
+       
+        padding-right: 0px;
+        width: 100%;
+    
+    }
+    
+    .bannerArea .button{
+        text-decoration: none;
+        padding: 15px 25px;
+        border-radius: 50px;
+        color: white;
+        background-image: linear-gradient(281deg, #11B2FA, #A6D4EE);
+        font-weight: 600;
+        font-size: 10px;
+    }
+    
+    .imageArea{
+        padding-right: 0px;
+        width: 100%;
+        }
+    
+    /*ABOUT US AREA*/
+    .aboutUs{
+        background-image: url(./bgimage.jpg );
+        background-repeat: no-repeat;
+  display: block;
+  text-align: center;
+ 
+        background-size: 100%;
+        width: 104.7%;
+    
+        padding-right: 0px;
+   
+   
+   }
+ 
+
+.aboutUs .img{
+    padding: 5px 10px 0px 110px;
+    
+}
+.aboutUs .txt{
+    padding: 205px 10px 10px 140px;
+    
+}
+
+.aboutUs img{
+    
+    padding-right: 0px;
+    width: 70%;
+    float:right;
+    
+}
+
+
+
+.aboutUs .button{
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient(281deg, #11B2FA, #A6D4EE);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+/*RECIPIES AREA*/
+.FlexRecipe{
+    display: block;
+
+}
+
+.Review{
+
+   
+    text-align: center;
+    display: block;
+    
+}
+
+/*FOLLOWER AREA*/
+.follower{
+    display: block;
+    text-align: center;
+       margin: 2% 7% 45% 7%;
+       box-shadow: rgb(0 0 0 / 20%) 0px 0px 500px 100px;
+       border-radius: 20px;
+  }
+
+
+
+
+
+  .newsletter {
+   
+    text-align: center;
+    width: 300px;
+    box-shadow: rgb(0 0 0 / 20%) px 500px 5px 3px;
+    border-radius: 20px;
+    padding: 2%;
+    position: absolute;
+    bottom: 73%;
+    left: 10%;
+    right: 10%;
+ 
+    background-color: #fff;
+}
+form {
+    padding: 10% 2% 2% 0%;
+}
+.footer {
+    width: 81%;
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 10% 12% 0 12%;
+}
+
+}
 
 
 
